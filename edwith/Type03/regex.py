@@ -10,4 +10,5 @@ for line in hand:
     #  + : 한번 이상 나온다는 뜻
     if re.search('^From:', line):
     # if line.startswith("From:") 같은의미
+    # '^From:' --> From으로 시작하는 line 출력
         print(line)
